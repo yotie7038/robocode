@@ -1,3 +1,12 @@
+// JavaScript to hide the preloader once the DOM content is fully loaded
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Hide preloader
+  document.querySelector(".preloader").style.display = "none";
+
+  // Show content
+  document.querySelector(".content").style.display = "block";
+});
 (function ($) {
   "use strict";
   /*=================================
