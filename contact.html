@@ -10,7 +10,7 @@
       name="keywords"
       content="contact RoboEduHub, robotics training inquiries, learn robotics, coding program questions"
     />
-    <link rel="canonical" href="https://www.roboeduhub.com/contact" />
+    <link rel="canonical" href="https://www.roboeduhub.co.zw/contact" />
     <meta
       property="og:title"
       content="Contact Us | RoboEduHub - Future Innovators"
@@ -19,10 +19,10 @@
       property="og:description"
       content="Reach out to RoboEduHub for inquiries, support, or to get started with our robotics courses. We are here to help shape future innovators."
     />
-    <meta property="og:url" content="https://www.roboeduhub.com/contact" />
+    <meta property="og:url" content="https://www.roboeduhub.co.zw/contact" />
     <meta
       property="og:image"
-      content="https://www.roboeduhub.com/images/contact-banner.jpg"
+      content="https://www.roboeduhub.co.zw/images/contact-banner.jpg"
     />
     <meta
       name="twitter:title"
@@ -225,8 +225,8 @@
                 <ul>
                   <li>
                     <i class="far fa-envelope"></i
-                    ><a href="mailto:support@roboeduhub.com"
-                      >support@roboeduhub.com</a
+                    ><a href="mailto:support@roboeduhub.co.zw"
+                      >support@roboeduhub.co.zw</a
                     >
                   </li>
                   <li>
@@ -408,8 +408,8 @@
               <div class="media-body">
                 <span class="contact-info_title">MAke A Quote</span>
                 <h6 class="contact-info_text">
-                  <a href="mailto:support@roboeduhub.com"
-                    >support@roboeduhub.com
+                  <a href="mailto:support@roboeduhub.co.zw"
+                    >support@roboeduhub.co.zw
                   </a>
                 </h6>
               </div>
@@ -447,73 +447,89 @@
     <div class="container">
       <div class="contact-form-area space-bottom">
         <div class="row g-0">
-          <div class="col-lg-4">
-            <div class="contact-form-thumb">
-              <img src="assets/img/normal/contact1.png" alt="img" />
-            </div>
-          </div>
+          <div class="col-lg-4"></div>
           <div class="col-lg-8 bg-smoke2">
             <div class="contact-form-wrap">
               <div class="title-area">
                 <span class="sub-title">Contact Us </span>
                 <h2 class="sec-title">Send Us Message</h2>
               </div>
-              <form
-                action="https://tfhtml.themepul.com/fitmas/mail.php"
-                method="POST"
-                class="contact-form ajax-contact"
-              >
+              <form action="https://formspree.io/f/mnnpbrbg" method="POST">
                 <div class="row">
                   <div class="col-lg-6">
                     <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control style-white"
-                        name="name"
-                        id="name"
-                        placeholder="Your Name"
-                      />
-                      <i class="far fa-user"></i>
+                      <label>
+                        Your Name:
+                        <div class="input-icon">
+                          <input
+                            type="text"
+                            class="form-control style-white"
+                            name="name"
+                            id="name"
+                            placeholder="Your Name"
+                            required
+                          />
+                          <i class="far fa-user"></i>
+                        </div>
+                      </label>
                     </div>
                   </div>
+
                   <div class="col-lg-6">
                     <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control style-white"
-                        name="email"
-                        id="email"
-                        placeholder="Email Address"
-                      />
-                      <i class="far fa-envelope"></i>
+                      <label>
+                        Your Email:
+                        <div class="input-icon">
+                          <input
+                            type="email"
+                            class="form-control style-white"
+                            name="email"
+                            id="email"
+                            placeholder="Email Address"
+                            required
+                          />
+                          <i class="far fa-envelope"></i>
+                        </div>
+                      </label>
                     </div>
                   </div>
                 </div>
+
                 <div class="form-group">
-                  <select
-                    name="subject"
-                    id="subject"
-                    class="form-select style-white"
-                  >
-                    <option value="" disabled="" selected="" hidden="">
-                      Select Subject
-                    </option>
-                    <option value="one">Little Coder</option>
-                    <option value="two">Juniour Coder</option>
-                    <option value="three">Seniour Coder</option>
-                    <option value="four">Robotics Course</option>
-                  </select>
+                  <label>
+                    Select Subject:
+                    <select
+                      name="subject"
+                      id="subject"
+                      class="form-select style-white"
+                      required
+                    >
+                      <option value="" disabled selected hidden>
+                        Select Subject
+                      </option>
+                      <option value="one">Little Coder</option>
+                      <option value="two">Junior Coder</option>
+                      <option value="three">Senior Coder</option>
+                      <option value="four">Robotics Course</option>
+                    </select>
+                  </label>
                 </div>
+
                 <div class="form-group col-12">
-                  <textarea
-                    placeholder="Type Your Message"
-                    id="contactForm"
-                    class="form-control style-white"
-                  ></textarea>
+                  <label>
+                    Your Message:
+                    <textarea
+                      placeholder="Type Your Message"
+                      name="message"
+                      id="contactForm"
+                      class="form-control style-white"
+                      required
+                    ></textarea>
+                  </label>
                 </div>
 
                 <div class="form-btn col-12">
-                  <button class="btn">Send A Message</button>
+                  <button class="btn" type="submit">Send A Message</button>
                 </div>
               </form>
             </div>
@@ -548,8 +564,8 @@
             </div>
             <div class="info-card_content">
               <p class="info-card_text">Email Address</p>
-              <a href="mailto:support@roboeduhub.com" class="info-card_link"
-                >support@roboeduhub.com</a
+              <a href="mailto:support@roboeduhub.co.zw" class="info-card_link"
+                >support@roboeduhub.co.zw</a
               >
             </div>
           </div>
@@ -675,16 +691,18 @@
                 <p class="footer-text">
                   Get 10% off your first order! Hurry up
                 </p>
-                <form class="newsletter-form">
-                  <div class="form-group">
-                    <i class="far fa-envelope"></i>
+                <form action="https://formspree.io/f/mnnpbrbg" method="POST">
+                  <label>
+                    Your email:
                     <input
-                      class="form-control"
                       type="email"
+                      name="email"
+                      class="form-control"
                       placeholder="Email Address"
-                      required=""
+                      required
                     />
-                  </div>
+                  </label>
+
                   <button type="submit" class="btn style2">SUBSCRIBE</button>
                 </form>
               </div>

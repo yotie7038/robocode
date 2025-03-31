@@ -10,7 +10,7 @@
       name="keywords"
       content="robotics application form, join RoboEduHub, apply for robotics course, future innovators, coding programs, education application"
     />
-    <link rel="canonical" href="https://www.roboeduhub.com/applicationform" />
+    <link rel="canonical" href="https://www.roboeduhub.co.zw/applicationform" />
     <meta
       property="og:title"
       content="Application Form | RoboEduHub - Future Innovators"
@@ -21,11 +21,11 @@
     />
     <meta
       property="og:url"
-      content="https://www.roboeduhub.com/applicationform"
+      content="https://www.roboeduhub.co.zw/applicationform"
     />
     <meta
       property="og:image"
-      content="https://www.roboeduhub.com/images/application-form-banner.jpg"
+      content="https://www.roboeduhub.co.zw/images/application-form-banner.jpg"
     />
     <meta
       name="twitter:title"
@@ -228,8 +228,8 @@
                 <ul>
                   <li>
                     <i class="far fa-envelope"></i
-                    ><a href="mailto:support@roboeduhub.com"
-                      >support@roboeduhub.com</a
+                    ><a href="mailto:support@roboeduhub.co.zw"
+                      >support@roboeduhub.co.zw</a
                     >
                   </li>
                   <li>
@@ -388,9 +388,7 @@
       <div class="contact-form-area space-bottom">
         <div class="row g-0">
           <div class="col-lg-4">
-            <div class="contact-form-thumb">
-              <img src="assets/img/normal/contact1.png" alt="img" />
-            </div>
+            <div class="contact-form-thumb"></div>
           </div>
           <div class="col-lg-8 bg-smoke2">
             <div class="contact-form-wrap">
@@ -398,113 +396,142 @@
                 <span class="sub-title">Student Application</span>
                 <h2 class="sec-title">Apply for Our Courses</h2>
               </div>
-              <form
-                action="https://tfhtml.themepul.com/fitmas/mail.php"
-                method="POST"
-                class="contact-form ajax-contact"
-              >
+              <form action="https://formspree.io/f/mnnpbrbg" method="POST">
                 <div class="row">
                   <!-- Student's First Name -->
                   <div class="col-lg-6">
                     <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control style-white"
-                        name="student-first-name"
-                        id="student-first-name"
-                        placeholder="Student's First Name"
-                        required
-                      />
-                      <i class="far fa-user"></i>
+                      <label>
+                        Student's First Name:
+                        <div class="input-icon">
+                          <input
+                            type="text"
+                            class="form-control style-white"
+                            name="student-first-name"
+                            id="student-first-name"
+                            placeholder="Student's First Name"
+                            required
+                          />
+                          <i class="far fa-user"></i>
+                        </div>
+                      </label>
                     </div>
                   </div>
+
                   <!-- Student's Last Name -->
                   <div class="col-lg-6">
                     <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control style-white"
-                        name="student-last-name"
-                        id="student-last-name"
-                        placeholder="Student's Last Name"
-                        required
-                      />
-                      <i class="far fa-user"></i>
+                      <label>
+                        Student's Last Name:
+                        <div class="input-icon">
+                          <input
+                            type="text"
+                            class="form-control style-white"
+                            name="student-last-name"
+                            id="student-last-name"
+                            placeholder="Student's Last Name"
+                            required
+                          />
+                          <i class="far fa-user"></i>
+                        </div>
+                      </label>
                     </div>
                   </div>
                 </div>
 
                 <!-- Student's Email -->
                 <div class="form-group">
-                  <input
-                    type="email"
-                    class="form-control style-white"
-                    name="student-email"
-                    id="student-email"
-                    placeholder="Student's Email Address"
-                    required
-                  />
-                  <i class="far fa-envelope"></i>
+                  <label>
+                    Student's Email:
+                    <div class="input-icon">
+                      <input
+                        type="email"
+                        class="form-control style-white"
+                        name="student-email"
+                        id="student-email"
+                        placeholder="Student's Email Address"
+                        required
+                      />
+                      <i class="far fa-envelope"></i>
+                    </div>
+                  </label>
                 </div>
 
                 <!-- Student's Phone Number -->
                 <div class="form-group">
-                  <input
-                    type="tel"
-                    class="form-control style-white"
-                    name="student-phone"
-                    id="student-phone"
-                    placeholder="Student's Phone Number"
-                    required
-                  />
-                  <i class="fas fa-phone-alt"></i>
+                  <label>
+                    Student's Phone Number:
+                    <div class="input-icon">
+                      <input
+                        type="tel"
+                        class="form-control style-white"
+                        name="student-phone"
+                        id="student-phone"
+                        placeholder="Student's Phone Number"
+                        required
+                      />
+                      <i class="fas fa-phone-alt"></i>
+                    </div>
+                  </label>
                 </div>
 
                 <!-- Course Selection -->
                 <div class="form-group">
-                  <select
-                    name="course"
-                    id="course"
-                    class="form-select style-white"
-                    required
-                  >
-                    <option value="" disabled selected hidden>
-                      Select Course
-                    </option>
-                    <option value="little-coder">Little Coder</option>
-                    <option value="junior-coder">Junior Coder</option>
-                    <option value="senior-coder">Senior Coder</option>
-                    <option value="robotics">Robotics Course</option>
-                  </select>
+                  <label>
+                    Course Selection:
+                    <select
+                      name="course"
+                      id="course"
+                      class="form-select style-white"
+                      required
+                    >
+                      <option value="" disabled selected hidden>
+                        Select Course
+                      </option>
+                      <option value="little-coder">Little Coder</option>
+                      <option value="junior-coder">Junior Coder</option>
+                      <option value="senior-coder">Senior Coder</option>
+                      <option value="robotics">Robotics Course</option>
+                      <option value="Private-Classes">Private Classes</option>
+                      <option value="Group-Classes">Group Classes</option>
+                    </select>
+                  </label>
                 </div>
 
                 <!-- Grade Level -->
                 <div class="form-group">
-                  <select
-                    name="grade-level"
-                    id="grade-level"
-                    class="form-select style-white"
-                    required
-                  >
-                    <option value="" disabled selected hidden>
-                      Select Grade Level
-                    </option>
-                    <option value="high-school">High School</option>
-                    <option value="undergraduate">Undergraduate</option>
-                    <option value="beginner">Beginner</option>
-                  </select>
+                  <label>
+                    Grade Level:
+                    <select
+                      name="grade-level"
+                      id="grade-level"
+                      class="form-select style-white"
+                      required
+                    >
+                      <option value="" disabled selected hidden>
+                        Select Grade Level
+                      </option>
+                      <option value="beginner">Beginner</option>
+                      <option value="juniour-school">Juniour School</option>
+                      <option value="Senior-School">Senior School</option>
+                      <option value="undergraduate">Undergraduate</option>
+                    </select>
+                  </label>
                 </div>
 
                 <!-- Preferred Start Date -->
                 <div class="form-group">
-                  <input
-                    type="date"
-                    class="form-control style-white"
-                    name="start-date"
-                    id="start-date"
-                    placeholder="Preferred Start Date"
-                    required
-                  />
+                  <label>
+                    Preferred Start Date:
+                    <input
+                      type="date"
+                      class="form-control style-white"
+                      name="start-date"
+                      id="start-date"
+                      placeholder="Preferred Start Date"
+                      required
+                    />
+                  </label>
                 </div>
 
                 <!-- Parent/Guardian Details -->
@@ -516,87 +543,106 @@
                 <div class="row">
                   <div class="col-lg-6">
                     <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control style-white"
-                        name="guardian-first-name"
-                        id="guardian-first-name"
-                        placeholder="Parent/Guardian First Name"
-                        required
-                      />
-                      <i class="far fa-user"></i>
+                      <label>
+                        Parent/Guardian First Name:
+                        <div class="input-icon">
+                          <input
+                            type="text"
+                            class="form-control style-white"
+                            name="guardian-first-name"
+                            id="guardian-first-name"
+                            placeholder="Parent/Guardian First Name"
+                            required
+                          />
+                          <i class="far fa-user"></i>
+                        </div>
+                      </label>
                     </div>
                   </div>
+
                   <!-- Parent/Guardian Last Name -->
                   <div class="col-lg-6">
                     <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control style-white"
-                        name="guardian-last-name"
-                        id="guardian-last-name"
-                        placeholder="Parent/Guardian Last Name"
-                        required
-                      />
-                      <i class="far fa-user"></i>
+                      <label>
+                        Parent/Guardian Last Name:
+                        <div class="input-icon">
+                          <input
+                            type="text"
+                            class="form-control style-white"
+                            name="guardian-last-name"
+                            id="guardian-last-name"
+                            placeholder="Parent/Guardian Last Name"
+                            required
+                          />
+                          <i class="far fa-user"></i>
+                        </div>
+                      </label>
                     </div>
                   </div>
                 </div>
 
                 <!-- Parent/Guardian Email -->
                 <div class="form-group">
-                  <input
-                    type="email"
-                    class="form-control style-white"
-                    name="guardian-email"
-                    id="guardian-email"
-                    placeholder="Parent/Guardian Email Address"
-                    required
-                  />
-                  <i class="far fa-envelope"></i>
+                  <label>
+                    Parent/Guardian Email:
+                    <div class="input-icon">
+                      <input
+                        type="email"
+                        class="form-control style-white"
+                        name="guardian-email"
+                        id="guardian-email"
+                        placeholder="Parent/Guardian Email Address"
+                        required
+                      />
+                      <i class="far fa-envelope"></i>
+                    </div>
+                  </label>
                 </div>
 
                 <!-- Parent/Guardian Phone Number -->
                 <div class="form-group">
-                  <input
-                    type="tel"
-                    class="form-control style-white"
-                    name="guardian-phone"
-                    id="guardian-phone"
-                    placeholder="Parent/Guardian Phone Number"
-                    required
-                  />
-                  <i class="fas fa-phone-alt"></i>
+                  <label>
+                    Parent/Guardian Phone Number:
+                    <div class="input-icon">
+                      <input
+                        type="tel"
+                        class="form-control style-white"
+                        name="guardian-phone"
+                        id="guardian-phone"
+                        placeholder="Parent/Guardian Phone Number"
+                        required
+                      />
+                      <i class="fas fa-phone-alt"></i>
+                    </div>
+                  </label>
                 </div>
 
                 <!-- Parent/Guardian Relationship to Student -->
                 <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control style-white"
-                    name="guardian-relationship"
-                    id="guardian-relationship"
-                    placeholder="Relationship to Student (e.g., Father, Mother)"
-                    required
-                  />
+                  <label>
+                    Parent/Guardian Relationship to Student:
+                    <input
+                      type="text"
+                      class="form-control style-white"
+                      name="guardian-relationship"
+                      id="guardian-relationship"
+                      placeholder="Relationship to Student (e.g., Father, Mother)"
+                      required
+                    />
+                  </label>
                 </div>
 
                 <!-- Additional Information -->
                 <div class="form-group col-12">
-                  <textarea
-                    placeholder="Additional Information (Optional)"
-                    name="additional-info"
-                    id="additional-info"
-                    class="form-control style-white"
-                  ></textarea>
-                </div>
-
-                <!-- Terms & Conditions -->
-                <div class="form-group">
-                  <input type="checkbox" name="terms" id="terms" required />
-                  <label for="terms"
-                    >I agree to the <a href="#">terms and conditions</a></label
-                  >
+                  <label>
+                    Additional Information (Optional):
+                    <textarea
+                      placeholder="Additional Information (Optional)"
+                      name="additional-info"
+                      id="additional-info"
+                      class="form-control style-white"
+                    ></textarea>
+                  </label>
                 </div>
 
                 <!-- Submit Button -->
@@ -636,8 +682,8 @@
             </div>
             <div class="info-card_content">
               <p class="info-card_text">Email Address</p>
-              <a href="mailto:support@roboeduhub.com" class="info-card_link"
-                >support@roboeduhub.com</a
+              <a href="mailto:support@roboeduhub.co.zw" class="info-card_link"
+                >support@roboeduhub.co.zw</a
               >
             </div>
           </div>
@@ -763,16 +809,18 @@
                 <p class="footer-text">
                   Get 10% off your first order! Hurry up
                 </p>
-                <form class="newsletter-form">
-                  <div class="form-group">
-                    <i class="far fa-envelope"></i>
+                <form action="https://formspree.io/f/mnnpbrbg" method="POST">
+                  <label>
+                    Your email:
                     <input
-                      class="form-control"
                       type="email"
+                      name="email"
+                      class="form-control"
                       placeholder="Email Address"
-                      required=""
+                      required
                     />
-                  </div>
+                  </label>
+
                   <button type="submit" class="btn style2">SUBSCRIBE</button>
                 </form>
               </div>

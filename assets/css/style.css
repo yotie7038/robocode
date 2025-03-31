@@ -1834,7 +1834,7 @@ textarea.is-invalid {
   padding-top: 40px;
   display: block;
   text-align: center;
-  background-color: var(--smoke-color2);
+  background-color: #202020;
 }
 .mobile-menu-wrapper .mobile-logo svg {
   max-width: 185px;
@@ -5007,6 +5007,8 @@ ul.wp-block-latest-posts li:last-child {
 .header-logo {
   padding-top: 15px;
   padding-bottom: 15px;
+  background-color: #202020;
+  border-radius: 5px;
 }
 
 .header-links > ul {
@@ -14978,4 +14980,113 @@ span.select2-selection.select2-selection--single:focus {
 /* Hidden content css */
 .hidden-content {
   transition: all 0.3s ease-in-out;
+}
+/* Clients/Partners */
+
+/*--------------------------------------------------------------
+# Clients Section track record
+--------------------------------------------------------------*/
+#clients {
+  margin-top: 10px;
+}
+.clients-track {
+  padding: 20px 10px;
+}
+
+.clients-track .client-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.clients-track .client-logo img {
+  padding: 20px 40px;
+  max-width: 90%;
+  transition: 0.3s;
+  opacity: 0.5;
+  filter: grayscale(100);
+}
+/* .client-logo img {
+  width: 200px;
+  height: auto;
+  padding: 20px 40px;
+} */
+
+.clients-track .client-logo img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+@media (max-width: 640px) {
+  .clients .client-logo img {
+    padding: 20px;
+  }
+}
+/*--------------------------------------------------------------
+  # Clients Section
+  --------------------------------------------------------------*/
+.clients .clients-wrap {
+  border-top: 2px solid
+    color-mix(in srgb, rgba(0, 0, 12, 0.884), transparent 85%);
+  border-left: 2px solid
+    color-mix(in srgb, rgba(0, 0, 12, 0.884), transparent 85%);
+  margin-bottom: 5px;
+}
+
+.clients .client-logo {
+  background-color: var(--surface-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid
+    color-mix(in srgb, rgba(0, 0, 12, 0.884), transparent 85%);
+  border-bottom: 2px solid
+    color-mix(in srgb, rgba(0, 0, 12, 0.884), transparent 85%);
+  overflow: hidden;
+}
+
+.clients .client-logo img {
+  padding: 50px;
+  max-width: 80%;
+  transition: 0.3s;
+}
+
+@media (max-width: 640px) {
+  .clients .client-logo img {
+    padding: 30px;
+    max-width: 50%;
+  }
+}
+
+.clients .client-logo:hover img {
+  transform: scale(1.1);
+}
+
+/* 
+Contact fa fa Icons */
+/* Align input icons */
+.input-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon i {
+  position: absolute;
+  left: 10px; /* Adjust the left position to your liking */
+  pointer-events: none; /* Prevents interaction with the icon */
+}
+
+.input-icon input {
+  padding-left: 30px; /* Ensures the input text doesn't overlap with the icon */
+}
+
+/* Additional styling for select fields */
+.select-icon {
+  position: relative;
+}
+
+.select-icon select {
+  padding-left: 30px; /* Ensure the select text isn't overlapping with the icon */
 }
